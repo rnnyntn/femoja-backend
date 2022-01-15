@@ -1,4 +1,4 @@
-package de.rnnyntn.femojabackend;
+package de.rnnyntn.femoja.backend.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
