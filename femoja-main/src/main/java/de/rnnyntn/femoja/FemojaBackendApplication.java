@@ -1,9 +1,10 @@
-package de.rnnyntn.femoja.backend.main;
+package de.rnnyntn.femoja;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
-@SpringBootApplication
+@SpringBootApplication()
 public class FemojaBackendApplication {
 
     public static void main(String[] args) {

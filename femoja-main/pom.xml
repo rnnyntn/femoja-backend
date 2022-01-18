@@ -6,16 +6,24 @@
         <artifactId>femoja-backend</artifactId>
         <groupId>de.rnnyntn</groupId>
         <version>0.0.1-SNAPSHOT</version>
+        <relativePath/>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>femoja-main</artifactId>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
-
+    <dependencies>
+        <dependency>
+            <artifactId>femoja-rest</artifactId>
+            <groupId>de.rnnyntn</groupId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 
     <build>
